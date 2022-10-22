@@ -70,7 +70,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .card {
@@ -90,17 +90,23 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  transform: scale(1.1);
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.card img{
+  width: 200px;
 }
 
 .logo {
